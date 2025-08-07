@@ -8,6 +8,7 @@ Bu proje, **MediaPipe** ve **Pygame** kullanılarak geliştirilen, el hareketler
 - 👈 **Sol el ile seçim yapma**: Baş parmak ve işaret parmağı birleştirilerek seçim yapılır.
 - 🔁 **Dinamik kontrol**: Menü ikinci kez açıldığında kapanır. Aynı şarkıya tekrar tıklanırsa öneri paneli kapanır.
 - 🔊 **Tek elle ses kontrolü**: Parmaklar arası mesafeye göre ses seviyesi ayarlanır.
+- 🔊 **Çift elle ses kontrolü**: Avuçlar arası mesafeye göre ses seviyesi ayarlanır.
 - 🎶 **Gerçek zamanlı waveform (ses dalgası) görselleştirmesi**.
 - 💾 **Performans optimizasyonu**: MP3 dosyaları önceden `.npy` formatına dönüştürülerek hızlı erişim sağlanır.
 - 👁️‍🗨️ **Görsel geri bildirim**: Tıklama animasyonları ve akıcı dalga çizimi.
@@ -39,22 +40,29 @@ Movesic/
 
 # 🚀 Kurulum ve Kullanım
 
-# 1. Gerekli bağımlılıkları yükleyin:
+### 1. Gerekli bağımlılıkları yükleyin:
 `pip install mediapipe pygame pydub simpleaudio numpy opencv-python`
-# 2. ffmpeg'i sisteminize yükleyin:
+### 2. ffmpeg'i sisteminize yükleyin:
  ffmpeg, MP3 dosyalarının işlenebilmesi için zorunludur.
  https://ffmpeg.org/download.html adresinden indirip sistem PATH'ine eklemeyi unutmayın.
 
-# 3. MP3 dosyalarınızı 'songs/' klasörüne yerleştirin:
+### 3. MP3 dosyalarınızı 'songs/' klasörüne yerleştirin:
  Örnek klasör yapısı:
- ├── songs/
+ ├── Songs/
  │   ├── music1.mp3
  │   ├── music2.mp3
 
-# Dosya adlarında Türkçe karakter, boşluk veya özel semboller olmamalı.
+### 4. Dosya adlarında Türkçe karakter, boşluk veya özel semboller olmamalı:
+ Şarkılarınızı yükledikten sonra hem `main.py`, hem de `audio_visualizer.py` dosyaları
+ içerisine şarkı isim ve konumlarını doğru yazdığınızdan ve türkçe karakter kullanmadığınızdan
+ emin olun.
 
 # 2. MP3 dosyalarını .npy formatına dönüştürün:
 `python audiovisualizer.py`
+ Bu işlemden sonra klasör yapınız şu şekilde görünecektir:
+ ├── songs/
+ │   ├── music1.mp3
+ │   ├── music2.mp3
 
 # 3. Uygulamayı başlatın:
 `python main.py`
