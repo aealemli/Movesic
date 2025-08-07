@@ -1,0 +1,24 @@
+You have to put .npy files here
+
+For Example:
+
+beethoven.npy
+can_kiriklari.npy
+chopin.npy
+fade_to_black.npy
+hatasiz_kul_olmaz.npy
+her_seyi_yak.npy
+islak_islak.npy
+karabiberim.npy
+kirmizi.npy
+kuzu_kuzu.npy
+mayin_tarlasi.npy
+paramparca.npy
+thunderstruck.npy
+tutamiyorum_zamani.npy
+vivaldi.npy
+
+
+
+
+
