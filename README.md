@@ -60,9 +60,9 @@ Movesic/
 # 2. MP3 dosyalarını .npy formatına dönüştürün:
 `python audiovisualizer.py`
  Bu işlemden sonra klasör yapınız şu şekilde görünecektir:
- ├── songs/
+```├── songs/
  │   ├── music1.mp3
- │   ├── music2.mp3
+ │   ├── music2.mp3```
 
 # 3. Uygulamayı başlatın:
 `python main.py`
