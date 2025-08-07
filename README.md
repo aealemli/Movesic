@@ -15,7 +15,7 @@ Bu proje, **MediaPipe** ve **Pygame** kullanılarak geliştirilen, el hareketler
 
 ## 📂 Dosya Yapısı
 
-###Movesic/
+Movesic/
  - main.py # Ana uygulama (el hareketiyle kontrol)
  - audio_visualizer.py # Pygame ile ses dalgası çizimi 
  - menu.utils.py # Menü çizimi ve seçim işlemleri
