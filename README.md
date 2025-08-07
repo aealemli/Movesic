@@ -19,9 +19,8 @@ Movesic/
  - main.py # Ana uygulama (el hareketiyle kontrol)
  - audio_visualizer.py # Pygame ile ses dalgası çizimi 
  - menu.utils.py # Menü çizimi ve seçim işlemleri
- - preprocess.py # MP3 dosyalarını .npy formatına çevirir
  - Songs/ # MP3 müzik dosyaları
- - |_ Songs/ # MP3’lerden dönüştürülen .npy dosyaları
+ - Songs/ # MP3’lerden dönüştürülen .npy dosyaları
  - dist/ # .exe oluşturulmuşsa burada yer alır (yüklenecek değil)
  - build/ # PyInstaller derleme dosyaları (yüklenecek değil)
  - pycache/ # Python cache klasörü (yüklenecek değil)
@@ -46,11 +45,7 @@ Movesic/
  ffmpeg, MP3 dosyalarının işlenebilmesi için zorunludur.
  https://ffmpeg.org/download.html adresinden indirip sistem PATH'ine eklemeyi unutmayın.
 
-### 3. MP3 dosyalarınızı 'songs/' klasörüne yerleştirin:
- Örnek klasör yapısı:
- ├── Songs/
- │   ├── music1.mp3
- │   ├── music2.mp3
+### 3. MP3 dosyalarınızı 'songs/' klasörüne yerleştirin
 
 ### 4. Dosya adlarında Türkçe karakter, boşluk veya özel semboller olmamalı:
  Şarkılarınızı yükledikten sonra hem `main.py`, hem de `audio_visualizer.py` dosyaları
@@ -59,10 +54,6 @@ Movesic/
 
 # 2. MP3 dosyalarını .npy formatına dönüştürün:
 `python audiovisualizer.py`
- Bu işlemden sonra klasör yapınız şu şekilde görünecektir:
-`├── songs/
- │   ├── music1.mp3
- │   ├── music2.mp3`
 
 # 3. Uygulamayı başlatın:
 `python main.py`
