@@ -20,13 +20,13 @@ Bu proje, **MediaPipe** ve **Pygame** kullanılarak geliştirilen, el hareketler
  - audio_visualizer.py # Pygame ile ses dalgası çizimi 
  - menu.utils.py # Menü çizimi ve seçim işlemleri
  - preprocess.py # MP3 dosyalarını .npy formatına çevirir
- ├── Songs/ # MP3 müzik dosyaları
- │ └── Songs/ # MP3’lerden dönüştürülen .npy dosyaları
- ├── dist/ # .exe oluşturulmuşsa burada yer alır (yüklenecek değil)
- ├── build/ # PyInstaller derleme dosyaları (yüklenecek değil)
- ├── pycache/ # Python cache klasörü (yüklenecek değil)
- ├── main.spec # PyInstaller yapı dosyası
- └── README.md # Proje açıklaması
+ - Songs/ # MP3 müzik dosyaları
+ - |_ Songs/ # MP3’lerden dönüştürülen .npy dosyaları
+ - dist/ # .exe oluşturulmuşsa burada yer alır (yüklenecek değil)
+ - build/ # PyInstaller derleme dosyaları (yüklenecek değil)
+ - pycache/ # Python cache klasörü (yüklenecek değil)
+ - main.spec # PyInstaller yapı dosyası
+ - README.md # Proje açıklaması
 
 ## 🛠️ Kullanılan Teknolojiler
 
