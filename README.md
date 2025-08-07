@@ -15,11 +15,11 @@ Bu proje, **MediaPipe** ve **Pygame** kullanılarak geliştirilen, el hareketler
 
 ## 📂 Dosya Yapısı
 
-Movesic/
- ├── main.py # Ana uygulama (el hareketiyle kontrol)
- ├── audio_visualizer.py # Pygame ile ses dalgası çizimi 
- ├── menu.utils.py # Menü çizimi ve seçim işlemleri
- ├── preprocess.py # MP3 dosyalarını .npy formatına çevirir
+###Movesic/
+ - main.py # Ana uygulama (el hareketiyle kontrol)
+ - audio_visualizer.py # Pygame ile ses dalgası çizimi 
+ - menu.utils.py # Menü çizimi ve seçim işlemleri
+ - preprocess.py # MP3 dosyalarını .npy formatına çevirir
  ├── Songs/ # MP3 müzik dosyaları
  │ └── Songs/ # MP3’lerden dönüştürülen .npy dosyaları
  ├── dist/ # .exe oluşturulmuşsa burada yer alır (yüklenecek değil)
