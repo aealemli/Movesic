@@ -52,10 +52,10 @@ Movesic/
  içerisine şarkı isim ve konumlarını doğru yazdığınızdan ve türkçe karakter kullanmadığınızdan
  emin olun.
 
-# 2. MP3 dosyalarını .npy formatına dönüştürün:
+### 5. MP3 dosyalarını .npy formatına dönüştürün:
 `python audiovisualizer.py`
 
-# 3. Uygulamayı başlatın:
+### 6. Uygulamayı başlatın:
 `python main.py`
 
 # 🧠 Nasıl Çalışıyor?
