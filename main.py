@@ -11,37 +11,37 @@ from menu_utils import draw_arc_menu, draw_cat_menu, confirm_fingertips, get_men
 
 songs_by_category = {
     "Klasik": [
-        ("Chopin", "Songs/chopin-nocturne-in-e-flat-major-op-9-no-2.mp3"),
-        ("Beethoven", "Songs/moonlight-sonata.mp3"),
-        ("Vivaldi", "Songs/Vivaldi-The-Four-Seasons-Summer.mp3"),
-        ("Mozart", "Songs/mozart-rondo-alla-turca.mp3")
+        ("Chopin", "FULLPATH/Songs/chopin-nocturne-in-e-flat-major-op-9-no-2.mp3"),
+        ("Beethoven", "FULLPATH/Songs/moonlight-sonata.mp3"),
+        ("Vivaldi", "FULLPATH/Songs/Vivaldi-The-Four-Seasons-Summer.mp3"),
+        ("Mozart", "FULLPATH/Songs/mozart-rondo-alla-turca.mp3")
     ],
     "Arabesk": [
-        ("Paramparça", "Songs/Müslüm Gürses - Paramparça.mp3"),
-        ("Hatasiz Kul olmaz", "Songs/Hatasız Kul Olmaz  - Orhan Gencebay.mp3"),
-        ("Tutamiyorum Zamani", "Songs/Müslüm Gürses - Tutamıyorum Zamanı.mp3")
+        ("Paramparça", "FULLPATH/Songs/Müslüm Gürses - Paramparça.mp3"),
+        ("Hatasiz Kul olmaz", "FULLPATH/Songs/Hatasız Kul Olmaz  - Orhan Gencebay.mp3"),
+        ("Tutamiyorum Zamani", "FULLPATH/Songs/Müslüm Gürses - Tutamıyorum Zamanı.mp3")
     ],
     "Pop": [
-        ("Kirmizi", "Songs/Hande Yener - Kırmızı.mp3"),
-        ("Kuzu Kuzu", "Songs/TARKAN - Kuzu Kuzu.mp3"),
-        ("Karabiberim", "Songs/Serdar Ortaç - Karabiberim.mp3")
+        ("Kirmizi", "FULLPATH/Songs/Hande Yener - Kırmızı.mp3"),
+        ("Kuzu Kuzu", "FULLPATH/Songs/TARKAN - Kuzu Kuzu.mp3"),
+        ("Karabiberim", "FULLPATH/Songs/Serdar Ortaç - Karabiberim.mp3")
     ],
     "Metal": [
-        ("Thunderstruck", "Songs/ACDC - Thunderstruck.mp3"),
-        ("Fade to Black", "Songs/Fade To Black.mp3")        
+        ("Thunderstruck", "FULLPATH/Songs/ACDC - Thunderstruck.mp3"),
+        ("Fade to Black", "FULLPATH/Songs/Fade To Black.mp3")        
     ],
     "Rock": [
-        ("Mayin Tarlasi", "Songs/Mayın Tarlası.mp3"),
-        ("Islak Islak", "Songs/Barış Akarsu - Islak Islak.mp3"),
-        ("Her şeyi yak", "Songs/Duman - Her Şeyi Yak.mp3"),
-        ("Can Kiriklari", "Songs/Şebnem Ferah - Can Kırıkları.mp3")
+        ("Mayin Tarlasi", "FULLPATH/Songs/Mayın Tarlası.mp3"),
+        ("Islak Islak", "FULLPATH/Songs/Barış Akarsu - Islak Islak.mp3"),
+        ("Her şeyi yak", "FULLPATH/Songs/Duman - Her Şeyi Yak.mp3"),
+        ("Can Kiriklari", "FULLPATH/Songs/Şebnem Ferah - Can Kırıkları.mp3")
     ]
 }
 current_songs = []
 
 categories= ["Klasik","Arabesk","Pop","Metal","Rock"]
 
-output_folder = "Songs/npy_songs"
+output_folder = "FULLPATH/Songs/npy_songs"
 
 
 def normalize(text):
