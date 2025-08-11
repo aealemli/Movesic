@@ -45,12 +45,15 @@ Movesic/
  ffmpeg, MP3 dosyalarının işlenebilmesi için zorunludur.
  https://ffmpeg.org/download.html adresinden indirip sistem PATH'ine eklemeyi unutmayın.
 
-### 3. MP3 dosyalarınızı 'songs/' klasörüne yerleştirin
+### 3. MP3 dosyalarınızı 'Songs/' klasörüne yerleştirin
+ Tüm şarkılarınızı yükledikten sonra `main.py` ve `audio_visualizer.py` dosyalarında 
+ "FULLPATH" yazılı tüm alanlara dosya yollarınızı doğru şekilde girdiğinizden emin olun.
 
 ### 4. Dosya adlarında Türkçe karakter, boşluk veya özel semboller olmamalı:
  Şarkılarınızı yükledikten sonra hem `main.py`, hem de `audio_visualizer.py` dosyaları
  içerisine şarkı isim ve konumlarını doğru yazdığınızdan ve türkçe karakter kullanmadığınızdan
- emin olun.
+ emin olun. Bunu kontrol eden bir fonksiyon bulunsa da zaman zaman oluşabilecek problemlerin önüne
+ geçmek adına yine de tedbir alın.
 
 ### 5. MP3 dosyalarını .npy formatına dönüştürün:
 `python audiovisualizer.py`
