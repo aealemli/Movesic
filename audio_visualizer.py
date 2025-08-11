@@ -40,7 +40,7 @@ def slugify(value):
     value = re.sub(r'[-\s]+', '_', value)
     return value
 
-output_folder = "Songs/npy_songs"
+output_folder = "FULLPATH/Songs/npy_songs"
 os.makedirs(output_folder, exist_ok=True)
 
 for category, songs in songs_by_category.items():
