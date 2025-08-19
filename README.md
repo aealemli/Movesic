@@ -13,20 +13,6 @@ Bu proje, **MediaPipe** ve **Pygame** kullanılarak geliştirilen, el hareketler
 - 💾 **Performans optimizasyonu**: MP3 dosyaları önceden `.npy` formatına dönüştürülerek hızlı erişim sağlanır.
 - 👁️‍🗨️ **Görsel geri bildirim**: Tıklama animasyonları ve akıcı dalga çizimi.
 
-## 📂 Dosya Yapısı
-
-Movesic/
- - main.py # Ana uygulama (el hareketiyle kontrol)
- - audio_visualizer.py # Pygame ile ses dalgası çizimi 
- - menu.utils.py # Menü çizimi ve seçim işlemleri
- - Songs/ # MP3 müzik dosyaları
- - Songs/ # MP3’lerden dönüştürülen .npy dosyaları
- - dist/ # .exe oluşturulmuşsa burada yer alır (yüklenecek değil)
- - build/ # PyInstaller derleme dosyaları (yüklenecek değil)
- - pycache/ # Python cache klasörü (yüklenecek değil)
- - main.spec # PyInstaller yapı dosyası
- - README.md # Proje açıklaması
-
 ## 🛠️ Kullanılan Teknolojiler
 
 - **Python 3.12**
