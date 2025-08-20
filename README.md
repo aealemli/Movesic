@@ -42,7 +42,7 @@ Bu proje, **MediaPipe** ve **Pygame** kullanılarak geliştirilen, el hareketler
  geçmek adına yine de tedbir alın.
 
 ### 5. MP3 dosyalarını .npy formatına dönüştürün:
-`python audiovisualizer.py`
+`python audio_visualizer.py`
 
 ### 6. Uygulamayı başlatın:
 `python main.py`
